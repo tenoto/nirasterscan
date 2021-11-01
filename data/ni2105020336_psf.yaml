@@ -1,0 +1,19 @@
+#scan_xnbins: 60
+scan_xbinsize: 1 # arcmin 
+scan_xlow: 270.3
+scan_xhigh: 271.6
+#scan_ynbins: 60
+scan_ybinsize: 1 # arcmin 
+scan_ylow: -30.3
+scan_yhigh: -29.2
+rate_column: 'TOT_XRAY_COUNT'
+offset_th_min: 0
+offset_th_max: 700
+gaussian_sigma: 0.8
+target_ra: 270.76162 
+target_dec: -29.83046
+nicer_fov_diam_arcmin: 2.5
+# Swift confirmed the position of the source within the uncertainty reported by NICER. Here is the best estimate obtained from the analysis of the UVOT snapshot:
+# RA(J2000)  =  18:03:02.79 = 270.76162 deg
+# DEC(J2000) = -29:49:49.7  = -29.83046 deg
+# with a 90%-confidence error radius of about 0.61 arc sec. 
